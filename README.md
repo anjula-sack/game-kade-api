@@ -40,3 +40,4 @@ The server will start running on `http://localhost:3000`
 - `/items`: GET request to retrieve all items.
 - `/items/:id`: GET request to retrieve an item by its id.
 - `/categories`: GET request to retrieve all categories.
+- `/categories/:id/items`: GET request to retrieve all items by id.

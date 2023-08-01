@@ -1,15 +1,6 @@
 import { Request, Response } from "express";
 import items from "../__mocks__/items.json";
-
-interface Item {
-  id: string;
-  category: number;
-  "item-name": string;
-  price: string;
-  rating: number;
-  imageURL: string;
-  description: string;
-}
+import { Item } from "../types";
 
 export const getItems = async (req: Request, res: Response) => {
   try {
@@ -26,7 +17,7 @@ export const getItemById = async (req: Request, res: Response) => {
     if (!id) {
       return res
         .status(400)
-        .json({ error: "Please provide an 'id' parameter." });
+        .json({ error: "Please provide a item id parameter." });
     }
 
     const item = items.find((item: Item) => item.id == id);

@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "category": 1,
+    "category": "1",
     "item-name": "Garlic Bread",
     "price": "5.99",
     "rating": 4.5,
@@ -10,7 +10,7 @@
   },
   {
     "id": "2",
-    "category": 1,
+    "category": "1",
     "item-name": "Chicken Wings",
     "price": "8.99",
     "rating": 4.2,
@@ -19,7 +19,7 @@
   },
   {
     "id": "3",
-    "category": 2,
+    "category": "2",
     "item-name": "Spaghetti Bolognese",
     "price": "12.99",
     "rating": 4.8,
@@ -28,7 +28,7 @@
   },
   {
     "id": "4",
-    "category": 2,
+    "category": "2",
     "item-name": "Grilled Salmon",
     "price": "16.99",
     "rating": 4.6,
@@ -37,7 +37,7 @@
   },
   {
     "id": "5",
-    "category": 3,
+    "category": "3",
     "item-name": "Cheesecake",
     "price": "6.99",
     "rating": 4.4,
@@ -46,7 +46,7 @@
   },
   {
     "id": "6",
-    "category": 3,
+    "category": "3",
     "item-name": "Tiramisu",
     "price": "7.99",
     "rating": 4.7,
@@ -55,7 +55,7 @@
   },
   {
     "id": "7",
-    "category": 4,
+    "category": "4",
     "item-name": "Coca-Cola",
     "price": "2.49",
     "rating": 4.0,
@@ -64,7 +64,7 @@
   },
   {
     "id": "8",
-    "category": 4,
+    "category": "4",
     "item-name": "Iced Tea",
     "price": "2.99",
     "rating": 3.9,
@@ -73,7 +73,7 @@
   },
   {
     "id": "9",
-    "category": 1,
+    "category": "1",
     "item-name": "Nachos",
     "price": "9.49",
     "rating": 4.3,
@@ -82,7 +82,7 @@
   },
   {
     "id": "10",
-    "category": 2,
+    "category": "2",
     "item-name": "Steak",
     "price": "18.99",
     "rating": 4.9,
@@ -91,7 +91,7 @@
   },
   {
     "id": "11",
-    "category": 2,
+    "category": "2",
     "item-name": "Pasta Carbonara",
     "price": "13.49",
     "rating": 4.6,
@@ -100,7 +100,7 @@
   },
   {
     "id": "12",
-    "category": 4,
+    "category": "4",
     "item-name": "Lemonade",
     "price": "2.49",
     "rating": 4.2,
@@ -109,7 +109,7 @@
   },
   {
     "id": "13",
-    "category": 3,
+    "category": "3",
     "item-name": "Apple Pie",
     "price": "6.49",
     "rating": 4.5,
@@ -118,7 +118,7 @@
   },
   {
     "id": "14",
-    "category": 1,
+    "category": "1",
     "item-name": "Bruschetta",
     "price": "7.99",
     "rating": 4.2,
@@ -127,7 +127,7 @@
   },
   {
     "id": "15",
-    "category": 2,
+    "category": "2",
     "item-name": "Lobster Thermidor",
     "price": "24.99",
     "rating": 4.7,
@@ -136,7 +136,7 @@
   },
   {
     "id": "16",
-    "category": 4,
+    "category": "4",
     "item-name": "Orange Juice",
     "price": "3.49",
     "rating": 4.0,
@@ -145,7 +145,7 @@
   },
   {
     "id": "17",
-    "category": 1,
+    "category": "1",
     "item-name": "Spring Rolls",
     "price": "8.49",
     "rating": 4.4,
@@ -154,7 +154,7 @@
   },
   {
     "id": "18",
-    "category": 3,
+    "category": "3",
     "item-name": "Chocolate Brownie",
     "price": "5.49",
     "rating": 4.6,
@@ -163,7 +163,7 @@
   },
   {
     "id": "19",
-    "category": 4,
+    "category": "4",
     "item-name": "Mango Lassi",
     "price": "3.99",
     "rating": 4.5,
@@ -172,7 +172,7 @@
   },
   {
     "id": "20",
-    "category": 2,
+    "category": "2",
     "item-name": "Chicken Parmesan",
     "price": "15.99",
     "rating": 4.7,
