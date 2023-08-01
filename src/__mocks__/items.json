@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "category": 1,
+    "item-name": "Garlic Bread",
+    "price": "5.99",
+    "rating": 4.5,
+    "imageURL": "https://example.com/images/garlic-bread.jpg",
+    "description": "Deliciously crispy garlic bread served with a side of marinara sauce."
+  },
+  {
+    "id": "2",
+    "category": 1,
+    "item-name": "Chicken Wings",
+    "price": "8.99",
+    "rating": 4.2,
+    "imageURL": "https://example.com/images/chicken-wings.jpg",
+    "description": "Succulent chicken wings tossed in your choice of buffalo or BBQ sauce."
+  },
+  {
+    "id": "3",
+    "category": 2,
+    "item-name": "Spaghetti Bolognese",
+    "price": "12.99",
+    "rating": 4.8,
+    "imageURL": "https://example.com/images/spaghetti-bolognese.jpg",
+    "description": "Classic Italian pasta dish with rich meat sauce and Parmesan cheese."
+  },
+  {
+    "id": "4",
+    "category": 2,
+    "item-name": "Grilled Salmon",
+    "price": "16.99",
+    "rating": 4.6,
+    "imageURL": "https://example.com/images/grilled-salmon.jpg",
+    "description": "Fresh Atlantic salmon fillet grilled to perfection, served with vegetables."
+  },
+  {
+    "id": "5",
+    "category": 3,
+    "item-name": "Cheesecake",
+    "price": "6.99",
+    "rating": 4.4,
+    "imageURL": "https://example.com/images/cheesecake.jpg",
+    "description": "Creamy New York-style cheesecake topped with your choice of fruit compote."
+  },
+  {
+    "id": "6",
+    "category": 3,
+    "item-name": "Tiramisu",
+    "price": "7.99",
+    "rating": 4.7,
+    "imageURL": "https://example.com/images/tiramisu.jpg",
+    "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone."
+  },
+  {
+    "id": "7",
+    "category": 4,
+    "item-name": "Coca-Cola",
+    "price": "2.49",
+    "rating": 4.0,
+    "imageURL": "https://example.com/images/coca-cola.jpg",
+    "description": "Refreshing carbonated beverage with a hint of cola flavor."
+  },
+  {
+    "id": "8",
+    "category": 4,
+    "item-name": "Iced Tea",
+    "price": "2.99",
+    "rating": 3.9,
+    "imageURL": "https://example.com/images/iced-tea.jpg",
+    "description": "Chilled tea served with ice and a slice of lemon for a refreshing drink."
+  },
+  {
+    "id": "9",
+    "category": 1,
+    "item-name": "Nachos",
+    "price": "9.49",
+    "rating": 4.3,
+    "imageURL": "https://example.com/images/nachos.jpg",
+    "description": "Tortilla chips smothered in cheese, guacamole, salsa, and jalapeños."
+  },
+  {
+    "id": "10",
+    "category": 2,
+    "item-name": "Steak",
+    "price": "18.99",
+    "rating": 4.9,
+    "imageURL": "https://example.com/images/steak.jpg",
+    "description": "Juicy grilled steak cooked to your desired doneness, served with mashed potatoes."
+  },
+  {
+    "id": "11",
+    "category": 2,
+    "item-name": "Pasta Carbonara",
+    "price": "13.49",
+    "rating": 4.6,
+    "imageURL": "https://example.com/images/pasta-carbonara.jpg",
+    "description": "Creamy pasta with bacon, eggs, and Parmesan cheese in a rich sauce."
+  },
+  {
+    "id": "12",
+    "category": 4,
+    "item-name": "Lemonade",
+    "price": "2.49",
+    "rating": 4.2,
+    "imageURL": "https://example.com/images/lemonade.jpg",
+    "description": "Freshly squeezed lemonade, sweetened to perfection for a zesty drink."
+  },
+  {
+    "id": "13",
+    "category": 3,
+    "item-name": "Apple Pie",
+    "price": "6.49",
+    "rating": 4.5,
+    "imageURL": "https://example.com/images/apple-pie.jpg",
+    "description": "Homemade apple pie with a flaky crust and warm cinnamon-spiced apples."
+  },
+  {
+    "id": "14",
+    "category": 1,
+    "item-name": "Bruschetta",
+    "price": "7.99",
+    "rating": 4.2,
+    "imageURL": "https://example.com/images/bruschetta.jpg",
+    "description": "Toasted baguette slices topped with fresh tomatoes, garlic, basil, and olive oil."
+  },
+  {
+    "id": "15",
+    "category": 2,
+    "item-name": "Lobster Thermidor",
+    "price": "24.99",
+    "rating": 4.7,
+    "imageURL": "https://example.com/images/lobster-thermidor.jpg",
+    "description": "Luxurious lobster dish with a creamy white wine and cheese sauce."
+  },
+  {
+    "id": "16",
+    "category": 4,
+    "item-name": "Orange Juice",
+    "price": "3.49",
+    "rating": 4.0,
+    "imageURL": "https://example.com/images/orange-juice.jpg",
+    "description": "Freshly squeezed orange juice packed with vitamins and natural sweetness."
+  },
+  {
+    "id": "17",
+    "category": 1,
+    "item-name": "Spring Rolls",
+    "price": "8.49",
+    "rating": 4.4,
+    "imageURL": "https://example.com/images/spring-rolls.jpg",
+    "description": "Crispy vegetable spring rolls served with sweet chili sauce."
+  },
+  {
+    "id": "18",
+    "category": 3,
+    "item-name": "Chocolate Brownie",
+    "price": "5.49",
+    "rating": 4.6,
+    "imageURL": "https://example.com/images/chocolate-brownie.jpg",
+    "description": "Decadent chocolate brownie served warm with a scoop of vanilla ice cream."
+  },
+  {
+    "id": "19",
+    "category": 4,
+    "item-name": "Mango Lassi",
+    "price": "3.99",
+    "rating": 4.5,
+    "imageURL": "https://example.com/images/mango-lassi.jpg",
+    "description": "Creamy yogurt-based drink with fresh mango and a hint of cardamom."
+  },
+  {
+    "id": "20",
+    "category": 2,
+    "item-name": "Chicken Parmesan",
+    "price": "15.99",
+    "rating": 4.7,
+    "imageURL": "https://example.com/images/chicken-parmesan.jpg",
+    "description": "Breaded chicken cutlet topped with marinara sauce and melted mozzarella."
+  }
+]
