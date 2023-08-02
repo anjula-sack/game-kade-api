@@ -7,3 +7,10 @@ export interface Item {
   imageURL: string;
   description: string;
 }
+
+export interface Category {
+  id: string;
+  name: string;
+  imageURL: string;
+  items?: Item[];
+}
