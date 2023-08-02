@@ -1,18 +1,22 @@
 [
   {
     "id": "1",
-    "name": "Appetizers"
+    "name": "Appetizers",
+    "imageURL": "https://example.com/images/apptetizers.png"
   },
   {
     "id": "2",
-    "name": "Main Course"
+    "name": "Main Course",
+    "imageURL": "https://example.com/images/apptetizers.png"
   },
   {
     "id": "3",
-    "name": "Desserts"
+    "name": "Desserts",
+    "imageURL": "https://example.com/images/apptetizers.png"
   },
   {
     "id": "4",
-    "name": "Beverages"
+    "name": "Beverages",
+    "imageURL": "https://example.com/images/apptetizers.png"
   }
 ]
