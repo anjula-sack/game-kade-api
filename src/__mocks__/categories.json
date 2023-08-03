@@ -1,22 +1,44 @@
 [
   {
-    "id": "1",
-    "name": "Appetizers",
-    "imageURL": "https://example.com/images/apptetizers.png"
+      "id":"1",
+      "name":"Beverages",
+      "url":"https://img.freepik.com/premium-photo/table-with-different-drinks-including-kiwi-kiwi-kiwi-kiwi-kiwi-kiwi_741910-905.jpg?w=740"
   },
   {
-    "id": "2",
-    "name": "Main Course",
-    "imageURL": "https://example.com/images/apptetizers.png"
+      "id":"2",
+      "name":"Desserts",
+      "url":"https://img.freepik.com/free-photo/cake-with-slice-missing-from-it-is-plate_1340-29904.jpg?t=st=1690978585~exp=1690982185~hmac=541c8624aa0d13774ce35cfa27d98f857c5b4d287a02b67fc6e6fe9f76dc1767&w=740"
   },
   {
-    "id": "3",
-    "name": "Desserts",
-    "imageURL": "https://example.com/images/apptetizers.png"
+
+      "id":"3",
+      "name":"Snacks",
+      "url":"https://img.freepik.com/premium-photo/bowl-ketchup-bowl-ketchup-are-table_908455-5.jpg?w=740"
   },
   {
-    "id": "4",
-    "name": "Beverages",
-    "imageURL": "https://example.com/images/apptetizers.png"
+      "id":"4",
+      "name":"Appetizers",
+      "url":"https://img.freepik.com/free-photo/bowl-food-with-spoon-table-glass-orange-juice_1340-34219.jpg?t=st=1690978919~exp=1690982519~hmac=1441c65900c45d6a586b9921e17965e508bcf44460ebdfc0d736e7eb9024fcff&w=740"
+  },
+  {
+      "id":"5",
+      "name":"Seafood",
+      "url":"https://img.freepik.com/premium-photo/succulent-seafood-platter-feast-senses-generative-ai_930046-3.jpg?w=740"
+  },
+  {
+      "id":"6",
+      "name":"Breakfast",
+      "url":"https://img.freepik.com/premium-photo/photo-table-is-full-breakfast-foods-including-croissants-coffee_741910-1150.jpg?w=740"
+  },
+  {
+      "id":"7",
+      "name":"Lunch",
+      "url":"https://img.freepik.com/premium-photo/ai-generate_670382-2061.jpg?w=740"
+  },
+  {
+      "id":"8",
+      "name":"Dinner",
+      "url":"https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?w=740&t=st=1690976621~exp=1690977221~hmac=86643608bf3af21f7c535dc97f0d328ba4c613277656b222f04dd8c22421344ahttps://img.freepik.com/premium-photo/nasi-goreng-southeast-asian-fried-rice-dish_891336-1443.jpg?w=740"
   }
+ 
 ]

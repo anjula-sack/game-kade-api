@@ -1,14 +1,10 @@
 import { Request, Response } from "express";
 import categories from "../__mocks__/categories.json";
 import items from "../__mocks__/items.json";
-import { Category, Item } from "../types";
+import { Item } from "../types";
 
 export const getAllCategories = async (req: Request, res: Response) => {
   try {
-    categories.map(
-      (category: Category) =>
-        (category.items = items.filter((item) => category.id == item.category))
-    );
     res.status(200).json(categories);
   } catch (err) {
     res.status(500).json({ error: "Internal server error" });

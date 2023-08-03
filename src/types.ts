@@ -3,14 +3,7 @@ export interface Item {
   category: string;
   "item-name": string;
   price: string;
-  rating: number;
+  rating: string;
   imageURL: string;
   description: string;
-}
-
-export interface Category {
-  id: string;
-  name: string;
-  imageURL: string;
-  items?: Item[];
 }

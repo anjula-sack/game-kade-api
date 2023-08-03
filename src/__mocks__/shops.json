@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Tasty Burgers",
+    "address": "123 Main Street, Colombo 01, Sri Lanka",
+    "opening_times": {
+      "Monday": "09:00 AM - 10:00 PM",
+      "Tuesday": "09:00 AM - 10:00 PM",
+      "Wednesday": "09:00 AM - 10:00 PM",
+      "Thursday": "09:00 AM - 10:00 PM",
+      "Friday": "09:00 AM - 11:00 PM",
+      "Saturday": "10:00 AM - 11:00 PM",
+      "Sunday": "10:00 AM - 09:00 PM"
+    }
+  },
+  {
+    "name": "Pizza Paradise",
+    "address": "456 Galle Road, Mount Lavinia, Sri Lanka",
+    "opening_times": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "12:00 PM - 11:00 PM",
+      "Sunday": "12:00 PM - 09:00 PM"
+    }
+  },
+  {
+    "name": "Sushi Delight",
+    "address": "789 Kandy Road, Colombo 05, Sri Lanka",
+    "opening_times": {
+      "Monday": "12:00 PM - 09:00 PM",
+      "Tuesday": "12:00 PM - 09:00 PM",
+      "Wednesday": "12:00 PM - 09:00 PM",
+      "Thursday": "12:00 PM - 09:00 PM",
+      "Friday": "12:00 PM - 10:00 PM",
+      "Saturday": "01:00 PM - 10:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Spice House",
+    "address": "246 Dehiwala Road, Dehiwala, Sri Lanka",
+    "opening_times": {
+      "Monday": "10:00 AM - 09:00 PM",
+      "Tuesday": "10:00 AM - 09:00 PM",
+      "Wednesday": "10:00 AM - 09:00 PM",
+      "Thursday": "10:00 AM - 09:00 PM",
+      "Friday": "10:00 AM - 10:30 PM",
+      "Saturday": "11:00 AM - 10:30 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Coco Bites",
+    "address": "50 Beach Road, Negombo, Sri Lanka",
+    "opening_times": {
+      "Monday": "08:30 AM - 08:00 PM",
+      "Tuesday": "08:30 AM - 08:00 PM",
+      "Wednesday": "08:30 AM - 08:00 PM",
+      "Thursday": "08:30 AM - 08:00 PM",
+      "Friday": "08:30 AM - 09:00 PM",
+      "Saturday": "09:00 AM - 09:00 PM",
+      "Sunday": "10:00 AM - 07:00 PM"
+    }
+  }
+]

@@ -1,182 +1,726 @@
 [
-  {
-    "id": "1",
-    "category": "1",
-    "item-name": "Garlic Bread",
-    "price": "5.99",
-    "rating": 4.5,
-    "imageURL": "https://example.com/images/garlic-bread.jpg",
-    "description": "Deliciously crispy garlic bread served with a side of marinara sauce."
+    {
+        "id":"1",
+        "category":"1",
+        "rating":"5.0",
+        "item-name":"Forest Berries Iced Tea",
+        "price":"RS.620.00",
+        "description":"This artfully crafted iced tea is an explosion of berries; Raspberry, Strawberry and Blueberry infused with Ceylon Black Tea.",
+        "imageURL":"https://img.freepik.com/premium-photo/glass-raspberry-lemonade-sits-table-bunch-fruits_816702-806.jpg?w=740"
+    },
+    {
+        
+        "id":"2",
+        "category":"1",
+        "rating":"3.0",
+        "item-name":"Americano",
+        "price":"RS.480.00",
+        "description":"Caffè Americano is a type of coffee drink prepared by diluting an espresso with hot water",
+        "imageURL":"https://img.freepik.com/premium-photo/cup-coffee-with-word-coffee-it_66339-719.jpg?w=740"
+    },
+    {
+        "id":"3",
+        "category":"1",
+        "rating":"5.0",
+        "item-name":"Cappuccino",
+        "price":"RS.751.30",
+        "description":"A cappuccino is an espresso-based coffee drink.",
+        "imageURL":"https://img.freepik.com/premium-photo/latte-art-design-rustic-wood-background-coffee-cup_902820-275.jpg?w=740"
+    },
+    {
+        "id":"4",
+        "category":"1",
+        "rating":"4.0",
+        "item-name":"latte",
+        "price":"RS.751.30",
+        "description":"Caffè latte, often shortened to just latte  in English, is a coffee drink of Italian origin made with espresso and steamed milk",
+        "imageURL":"https://img.freepik.com/premium-photo/two-cups-coffee-with-latte-art-rim_919137-67.jpg?w=740"
+    },
+    {
+        "id":"5",
+        "category":"1",
+        "rating":"5.0",
+        "item-name":"Orange juice",
+        "price":"RS.350.00",
+        "description":"Orange juice is a liquid extract of the orange tree fruit",
+        "imageURL":"https://img.freepik.com/premium-photo/glass-orange-juice-with-straw-it_328859-511.jpg?w=740"
+    },
+    {
+        "id":"6",
+        "category":"1",
+        "rating":"5.0",
+        "item-name":"Apple juice",
+        "price":"RS.380.00",
+        "description":"Apple juice is a fruit juice made by the maceration and pressing of an apple",
+        "imageURL":"https://img.freepik.com/premium-photo/apple-juice-with-splashes-with-apple-fruit-studio-background-restaurant-with-garden_741910-6111.jpg?w=740"
+    },
+    {
+        "id":"7",
+        "category":"1",
+        "rating":"4.0",
+        "item-name":"Pineapple juice",
+        "price":"RS.380.00",
+        "description":"Pineapple juice is a juice made from pressing the natural liquid out from the pulp of the pineapple.",
+        "imageURL":"https://img.freepik.com/premium-photo/pineapple-glass-orange-juice-are-table_25996-2724.jpg?w=740"
+    },
+    {
+        "id":"8",
+        "category":"1",
+        "rating":"5.0",
+        "item-name":"Chocolate milkshake",
+        "price":"RS.550.00",
+        "description":"Chocolate hazelnut spread,semi-skimmed milk,chocolate ice creams",
+        "imageURL":"https://img.freepik.com/premium-photo/cup-chocolate-ice-cream-with-chocolate-pieces-sprinkled-top_855892-255.jpg?w=740"
+    },
+    {
+        "id":"9",
+        "category":"1",
+        "rating":"5.0",
+        "item-name":"Vanilla milkshake",
+        "price":"RS.500.00",
+        "description":"A vanilla milkshake recipe that's very easy to make. Add chocolate, berries, peaches, or whatever you like. My kids like to add root beer instead of milk.",
+        "imageURL":"https://img.freepik.com/premium-photo/pineapple-cocktail-with-pineapples-cherries-table_25996-3026.jpg?w=740"
+    },
+    {
+        "id":"10",
+        "category":"1",
+        "rating":"5.0",
+        "item-name":"Strawberry milkshake",
+        "price":"RS.550.00",
+        "description":"This strawberry milkshake is thick, creamy, and everything that you would hope a milkshake would be! Made with delicious strawberries",
+        "imageURL":"https://img.freepik.com/premium-photo/cup-milk-strawberries-with-strawberry-cream-it_749992-104.jpg?w=740"
+    },
+
+    {
+        "id":"11",
+        "category":"2",
+        "rating":"4.7",
+        "item-name":"Apple pie",
+        "price":"RS.950.00",
+        "description":"An apple pie is a fruit pie in which the principal filling ingredient is apples.",
+        "imageURL":   "https://img.freepik.com/premium-photo/apple-pie-illustration-generative-ai_115919-9448.jpg?w=740"
+    },
+    {
+        "id":"12",
+        "category":"2",
+        "rating":"5.0",
+        "item-name":"Fruit tart",
+        "price":"RS.1250.00",
+        "description":"Loaded with a lush assortment of seasonal berries and other fruit, there’s nothing quite as lovely as a Fresh Fruit Tart",
+        "imageURL":"https://img.freepik.com/premium-photo/classic-cheesecake-with-berries-fruits-slice-plate-generative-ai_84130-11096.jpg?w=740"
+    },
+    {
+        "id":"13",
+        "category":"2",
+        "rating":"4.0",
+        "item-name":"Vanilla ice cream",
+        "price":"RS.600.00",
+        "description":"Vanilla is frequently used to flavor ice cream.",
+        "imageURL":"https://img.freepik.com/premium-photo/cup-whipped-cream-with-cream-top-it_772412-545.jpg?w=740"
+    },
+    {
+        "id":"14",
+        "category":"2",
+        "rating":"4.2",
+        "item-name":"Chocolate ice cream",
+        "price":"RS.700.00",
+        "description":"Chocolate ice cream is ice cream with natural or artificial chocolate flavoring",
+        "imageURL":"https://img.freepik.com/premium-photo/bowl-ice-cream-with-chocolate-sauce-drizzled-it_902639-20623.jpg?w=740"
+    },
+    {
+        "id":"15",
+        "category":"2",
+        "rating":"4.5",
+        "item-name":"Mint chocolate chip ice cream",
+        "price":"RS.800.00",
+        "description":"Chocolate chips, heavy cream, food coloring, peppermint",
+        "imageURL":"https://img.freepik.com/premium-photo/glass-mint-flavored-ice-cream-with-mint-flavored-ice-cream_391229-4449.jpg?w=740"
+    },
+    {
+        
+        "id":"16",
+        "category":"2",
+        "rating":"4.7",
+        "item-name":"Chocolate chip cookies",
+        "price":"RS.750.00",
+        "description":"Brown sugar, chocolate chips, eggs, baking soda, hot water",
+        "imageURL":"https://img.freepik.com/premium-photo/glass-milk-cookies-wooden-table_398492-1554.jpg?w=740"
+    },
+    {
+        "id":"17",
+        "category":"2",
+        "rating":"4.7",
+        "item-name":"Chocolate chip cookies",
+        "price":"RS.750.00",
+        "description":"Brown sugar, chocolate chips, eggs, baking soda, hot water",
+        "imageURL":"https://img.freepik.com/premium-photo/stack-chocolate-chip-cookies-with-glass-milk-background_577418-905.jpg?w=740"
+    },
+    {
+        "id":"18",
+        "category":"2",
+        "rating":"4.8",
+        "item-name":"Chocolate pudding",
+        "price":"RS.900.00",
+        "description":"Chocolate puddings are a class of desserts in the pudding family with chocolate flavors",
+        "imageURL":"https://img.freepik.com/premium-photo/fork-flower-generative-ai_939619-3.jpg?w=740"
+    },
+    {
+        "id":"19",
+        "category":"2",
+        "rating":"5.0",
+        "item-name":"Chocolate-filled donuts",
+        "price":"RS.1200.00",
+        "description":"These are the softest, most delicious, chocolate filled brioche doughnuts, with the velvet-rich chocolate filling that any true chocolate lover will adore",
+        "imageURL":"https://img.freepik.com/premium-photo/two-donuts-with-chocolate-frosting-sprinkles-table_147933-7479.jpg?w=740"
+    },
+    {
+        "id":"20",
+        "category":"2",
+        "rating":"4.7",
+        "item-name":"Fruit salad",
+        "price":"RS.550.00",
+        "description":"Fruit salad is a dish consisting of various kinds of fruit, sometimes served in a liquid, either their juices or a syrup",
+        "imageURL":"https://img.freepik.com/premium-photo/beautiful-fruit-salad-with-variety-colorful-fruits_783299-1198.jpg?w=740"
+        
+    },
+    {
+        "id":"21",
+        "category":"3",
+        "rating":"4.5",
+        "item-name":"Potato chips",
+        "price":"RS.300.00",
+        "description":"A potato chip or crisp is a thin slice of potato that has been deep fried, baked, or air fried until crunchy",
+        "imageURL":"https://img.freepik.com/premium-photo/french-fries_398492-8201.jpg?w=740"
+    },
+    {
+        "id":"22",
+        "category":"3",
+        "rating":"4.6",
+        "item-name":"Veggie chips",
+        "price":"RS.300.00",
+        "description":"Vegetable chips are chips that are prepared using vegetables other than potatoes",
+        "imageURL":"https://img.freepik.com/premium-photo/bowl-chips-with-sour-cream-top-few-other-containers-it_577418-935.jpg?w=740"
+    },
+    {
+        "id":"23",
+        "category":"3",
+        "rating":"4.8",
+        "item-name":"Buttered popcorn",
+        "price":"RS.350.00",
+        "description":"This is just melted butter that's simmered until the water in the butter evaporates",
+        "imageURL":"https://img.freepik.com/free-photo/red-white-striped-cup-popcorn-red-white-striped-cup-popcorn_1340-33298.jpg?t=st=1691031777~exp=1691035377~hmac=1daaf97834baa4cc96b955c005eedbbcada78c075307c913f5719384cf3dcd78&w=740"
+    },
+    {
+        "id":"24",
+        "category":"3",
+        "rating":"4.8",
+        "item-name":"Caramel popcorn",
+        "price":"RS.350.00",
+        "description":"Caramel corn or caramel popcorn is a confection made of popcorn coated with a sugar or molasses based caramel candy shell",
+        "imageURL":"https://img.freepik.com/premium-photo/bowl-popcorn-with-caramel-sauce-top_391229-4547.jpg?w=740"
+    },
+    {
+        "id":"25",
+        "category":"3",
+        "rating":"4.6",
+        "item-name":"Cheese popcorn",
+        "price":"RS.400.00",
+        "description":"Cheddar cheese powder, popped popcorn, melted butter",
+        "imageURL":"https://img.freepik.com/premium-photo/popcorn-container-with-smiling-face-smile-it_855892-250.jpg?w=740"
+    },
+    {
+        "id":"26",
+        "category":"3",
+        "rating":"4.5",
+        "item-name":"Cheese crackers",
+        "price":"RS.330.00",
+        "description":"Cheddar cheese, sea salt, all purpose flour",
+        "imageURL":"https://img.freepik.com/premium-photo/knackebrod-crispbread-isolate-white-background_871710-572.jpg?w=740"
+    },
+    {
+        "id":"27",
+        "category":"3",
+        "rating":"4.8",
+        "item-name":"Corn puffs",
+        "price":"RS.450.00",
+        "description":"Puffcorn or corn puffs are puffed or extruded corn snacks made with corn meal, which can be baked or fried",
+        "imageURL":"https://img.freepik.com/premium-photo/bowl-orange-puffed-food-is-white-surface_787273-1319.jpg?w=740"
+    },
+    {
+        "id":"28",
+        "category":"3",
+        "rating":"4.8",
+        "item-name":"Plain rice cakes",
+        "price":"RS.420.00",
+        "description":"Rice flour, parchment paper, rack, tapioca starch, sugar",
+        "imageURL":"https://img.freepik.com/premium-photo/plate-sushi-with-salmon-rice-it_861949-400.jpg?w=740"
+    },
+    {
+        "id":"29",
+        "category":"3",
+        "rating":"4.2",
+        "item-name":"Banana chips",
+        "price":"RS.400.00",
+        "description":"Raw bananas, deep frying, black pepper",
+        "imageURL":"https://img.freepik.com/premium-photo/fried-bananas-indonesian-traditional-food-topped-with-crunchy-flour-ai-generated_404742-1434.jpg?w=740"
+    },
+    {
+        "id":"30",
+        "category":"3",
+        "rating":"4.8",
+        "item-name":"nut bars",
+        "price":"RS.350.00",
+        "description":"Pumpkin seeds, sunflower seeds, macadamia nuts",
+        "imageURL":"https://img.freepik.com/premium-photo/stack-peanut-butter-fudge-with-white-background_435599-774.jpg?w=740"
+    },
+    {
+        "id":"31",
+        "category":"4",
+        "rating":"4.9",
+        "item-name":"Salsa fresca",
+        "price":"RS.750.00",
+        "description":"¼small white or red onion, minced ; red wine vinegar ; fresh, ripe tomatoes,; 1 to · or serrano chiles, to taste, minced",
+        "imageURL":"https://img.freepik.com/premium-photo/guacamole-isolated-white-generative-ai_910021-345.jpg?w=740"
+    },
+    {
+        "id":"32",
+        "category":"4",
+        "rating":"5.0",
+        "item-name":"spinach and artichoke dip",
+        "price":"RS.720.00",
+        "description":"Cream cheese, artichoke hearts, mozzarella cheese,",
+        "imageURL":"https://img.freepik.com/premium-photo/bowl-green-sauce-with-fork-it_1340-31955.jpg?w=740"
+    },
+    {
+        "id":"33",
+        "category":"4",
+        "rating":"5.0",
+        "item-name":"Tomato and basil bruschetta",
+        "price":"RS.950.00",
+        "description":"It's just a mixture of chopped tomatoes, balsamic, basil, and garlic, spooned over olive-oil brushed slices of toasted baguette or rustic bread.",
+        "imageURL":"https://img.freepik.com/premium-photo/three-sandwiches-with-tomatoes-cheese-them-bottle-rosemary-side_25996-6523.jpg?w=740"
+    },
+    {
+        "id":"34",
+        "category":"4",
+        "rating":"3.2",
+        "item-name":"Roasted vegetable bruschetta",
+        "price":"RS.950.00",
+        "description":"Romano peppers, aubergine, balsamic vinegar, courgette",
+        "imageURL":"https://img.freepik.com/premium-photo/plate-food-with-peaches-basil-feta-it_436393-28.jpg?w=740"
+    },
+    {
+        "id":"35",
+        "category":"4",
+        "rating":"3.7",
+        "item-name":"Stuffed mushrooms",
+        "price":"RS.800.00",
+        "description":"Cream cheese, mushrooms, butter, garlic, black pepper",
+        "imageURL":"https://img.freepik.com/premium-photo/pan-mushrooms-with-basil-leaves-side_727939-2500.jpg?w=740"
+    },
+    {
+        "id":"36",
+        "category":"4",
+        "rating":"4.2",
+        "item-name":"Chicken satay skewers",
+        "price":"RS.850.00",
+        "description":"Creamy peanut butter, gluten free, soy sauce, skinless",
+        "imageURL":"https://img.freepik.com/premium-photo/chicken-sate-with-peanut-sauce-other-condiment-generative-aiv_698447-1781.jpg?w=740"
+    },
+    {
+        "id":"37",
+        "category":"4",
+        "rating":"4.8",
+        "item-name":"Tomato basil soup shooters",
+        "price":"RS.1100.00",
+        "description":" 1 Tbsp. olive oil · ½ large yellow onion, chopped · 2 garlic cloves, minced · 8 basil leaves, chopped · 24 oz. tomato sauce",
+        "imageURL":"https://img.freepik.com/free-photo/bowl-food-with-spoon-table-glass-orange-juice_1340-34219.jpg?t=st=1691033691~exp=1691037291~hmac=1b8bf7a2c176fb333ddefabf8757382c14ceed8a2e7b9ba31ab0ce08d9ec74e2&w=740"
+    },
+    {
+        "id":"38",
+        "category":"4",
+        "rating":"4.7",
+        "item-name":"Chilled cucumber gazpacho shots",
+        "price":"RS.950.00",
+        "description":"Yogurt, dill leaves, dijon mustard, cucumber, rock salt",
+        "imageURL":"https://img.freepik.com/premium-photo/refreshing-gazpacho-with-tomatoes-cucumbers-generative-ai_909576-466.jpg?w=740"
+    },
+    {
+        "id":"39",
+        "category":"4",
+        "rating":"4.9",
+        "item-name":"Thai coconut curry soup shots",
+        "price":"RS.1150.00",
+        "description":"Red curry paste, soba noodles, coconut milk, soy sauce",
+        "imageURL":"https://img.freepik.com/free-photo/bowl-food-with-fried-egg-side-rice_1340-28855.jpg?t=st=1691033851~exp=1691037451~hmac=02274b11f2d9f64f80db0192679e2b494f955ac976978c7c000184b80edf1981&w=740"
+    },
+    {
+        "id":"40",
+        "category":"4",
+        "rating":"5.0",
+        "item-name":"Tuna sashimi",
+        "price":"RS.970.00",
+        "description":"Soy sauce, olive oil, spring onions, lime juice, sashimi grade tuna",
+        "imageURL":"https://img.freepik.com/premium-photo/closeup-delectable-sushi-plate-generative-ai_862745-659.jpg?w=740"
+    },
+    {
+        "id": "41",
+        "category": "5",
+        "item-name": "Squid & Baby Cuttlefish Salad",
+        "price": "Rs.1300.00",
+        "rating": "4",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/05/96/29/80/1000_F_596298010_kTYBrSenGdjW0I94UjX0akTRLiGgMxej.jpg",
+        "description": "A refreshing and tender seafood salad with squid and baby cuttlefish"
+      },
+    {
+        "id": "42",
+        "category": "5",
+        "item-name": "Sushi Plate",
+        "price": "Rs.1450.00",
+        "rating": "5",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/06/15/18/14/1000_F_615181495_hHWgbf1radvd4AVBbaFmSs5kWzgjJKCA.jpg",
+        "description": "A delightful assortment of fresh and flavorful sushi bites"
+      },
+    {
+        "id": "43",
+        "category": "5",
+        "item-name": "Spanish SeaFood Rice",
+        "price": "Rs.1200.00",
+        "rating": "4.1",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/02/10/99/34/1000_F_210993400_NOg2p85gzSMRuYuWmEsB82ywwj4sDYuR.jpg",
+        "description": "Rich and savory rice dish infused with the bounty of the sea"
+      },
+    {
+        "id": "44",
+        "category": "5",
+        "item-name": "Baked Whole Fish",
+        "price": "Rs.1000.00",
+        "rating": "3.9",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/06/15/06/20/1000_F_615062009_03qQ7ddQZI2TkJFIKZY61jPhiNVDI0q7.webp",
+        "description": "Oven-roasted whole fish, tender and infused with herbs and spices"
+      },
+    {
+        "id": "45",
+        "category": "5",
+        "item-name": "Shrimp Soup",
+        "price": "Rs.900.00",
+        "rating": "4.9",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/06/13/24/16/1000_F_613241684_5UmkKHGztEBgcEdblY5gO52cBtBi0f7C.jpg",
+        "description": "A comforting and flavorful soup featuring succulent shrimp"
+      },
+    {
+        "id": "46",
+        "category": "5",
+        "item-name": "gourmet bowl of seafood paella with shrimp, clams, and peas",
+        "price": "Rs.1500.00",
+        "rating": "4.5",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/06/12/51/78/1000_F_612517870_Kz1ueYrYgqbGBQIaFtKnsFyeJJeOe61k.jpg",
+        "description": "A mouthwatering blend of seafood goodness in a classic Spanish paella"
+      },
+    {
+        "id": "47",
+        "category": "5",
+        "item-name": "Fish Kebabs",
+        "price": "Rs.800.00",
+        "rating": "4.3",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/06/15/06/06/1000_F_615060611_BUwVX7q2Omjip72ZpnKtp6OL1lozlte8.webp",
+        "description": "Skewered and grilled fish with a tantalizing mix of spices and vegetables"
+      },
+    {
+        "id": "48",
+        "category": "5",
+        "item-name": "Grilled Shrimp Plate",
+        "price": "Rs.1500.00",
+        "rating": "4.4",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/05/81/81/98/1000_F_581819833_RJ9Tno3n8rgtmVGsbvsqkvL8fYuuMtfW.jpg",
+        "description": "Succulent grilled shrimp served on a plate with a side of your choice"
+      },
+    
+    {
+        "id": "49",
+        "category": "5",
+        "item-name": "Salmon and Rice with Mushrooms",
+        "price": "Rs.1300.00",
+        "rating": "4.8",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/00/88/16/14/1000_F_88161456_0eaH4Ys6NJXzdOunGIkrWN88NgsaTSMJ.jpg",
+        "description": "A harmonious combination of salmon, rice, and savory mushrooms"
+      },
+    {
+        "id": "50",
+        "category": "5",
+        "item-name": "Salmon Steak",
+        "price": "Rs.1600.00",
+        "rating": "4.9",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/00/41/57/34/1000_F_41573473_MbgaOTWPAusAQGTZf2bYqHkZnN9iGenT.jpg",
+        "description": "Juicy and perfectly cooked salmon steak, a delicious seafood delicacy"
+      },
+    {
+        "id": "51",
+        "category": "6",
+        "item-name": "Spring Rolls",
+        "price": "Rs.550.00",
+        "rating": "4",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/00/51/35/67/1000_F_51356713_W8rgsdjG1Dr7JYZ2CUMw3xmc2TvPVvCs.jpg",
+        "description": "Crispy and delicious rolls filled with a flavorful medley of vegetables and meat"
+      },
+    {
+        "id": "52",
+        "category": "6",
+        "item-name": "Noodles with Fried Fish",
+        "price": "Rs.600.00",
+        "rating": "4.5",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/01/93/03/80/1000_F_193038076_WV6PpXjxxBiaQ3bsjLP8w0lpztiCXfWt.jpg",
+        "description": "A delightful combination of perfectly cooked noodles and crispy fried fish"
+      },
+    {
+        "id": "53",
+        "category": "6",
+        "item-name": "Hoppers with Chilli Sambol",
+        "price": "Rs.420.00",
+        "rating": "3.9",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/05/35/69/31/1000_F_535693131_q6r1ni3E5p281LKDvRicgnMPUrThodC8.jpg",
+        "description": "Fragrant, bowl-shaped pancakes served with spicy chili sambal"
+      },
+    {
+        "id": "54",
+        "category": "6",
+        "item-name": "String Hoppers",
+        "price": "Rs.400.00",
+        "rating": "4",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/02/69/80/84/1000_F_269808452_ks8XBec3l6dMRT8rT7PfjpadbabJnEfN.jpg",
+        "description": "Soft, steamed rice noodles, a traditional Sri Lankan favorite"
+      },
+    {
+        "id": "55",
+        "category": "6",
+        "item-name": "Fruit Plate",
+        "price": "Rs.780.00",
+        "rating": "5",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/00/71/85/78/1000_F_71857823_5J917thBkLPfjS9QVcoDszwJsAtSpEll.jpg",
+        "description": "A refreshing platter of fresh, colorful fruits, a burst of natural sweetness"
+      },
+    {
+        "id": "56",
+        "category": "6",
+        "item-name": "Pol Rotti",
+        "price": "Rs.430.00",
+        "rating": "4.3",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/05/70/45/31/1000_F_570453136_Jbsdbcarkk94Kf0vqo4dEQZpyY8tpURM.jpg",
+        "description": "Sri Lankan coconut flatbread, exquisitely textured and aromatic"
+      },
+    {
+        "id": "57",
+        "category": "6",
+        "item-name": "Rice & Curry",
+        "price": "Rs.700.00",
+        "rating": "4.7",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/03/58/21/05/1000_F_358210562_JiRYvFBuYtiGI1U4CZlss1hT4s3dzK38.jpg",
+        "description": "An authentic Sri Lankan meal of rice paired with an array of flavorful curries"
+      },
+    {
+        "id": "58",
+        "category": "6",
+        "item-name": "KiriBath",
+        "price": "Rs.680.00",
+        "rating": "4.9",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/03/28/64/88/1000_F_328648875_CJiZaBngcGPVCVnTsyfrlvtqiqXQMEGO.jpg",
+        "description": "Creamy and comforting coconut milk rice, a cherished Sri Lankan dish"
+      },
+    {
+        "id": "59",
+        "category": "6",
+        "item-name": "Salmon Sandwiches",
+        "price": "Rs.480.00",
+        "rating": "4.5",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/00/51/49/11/1000_F_51491194_vMRQ7i2PcySuNES9NBkPw0pa2f8W9bcu.jpg",
+        "description": "Delicate and delectable sandwiches featuring flavorful salmon"
+      },
+    {
+        "id": "60",
+        "category": "6",
+        "item-name": "Dose With Curries",
+        "price": "Rs.1200.00",
+        "rating": "4.9",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/02/30/05/69/1000_F_230056917_m8hXYSLKPxVruW6nO5j4v8sLQr36tgpW.jpg",
+        "description": "Savory lentil crepes served with a variety of scrumptious curries"
+      },
+    {
+        "id": "61",
+        "category": "7",
+        "item-name": "Fried Rice with Devilled Chicken",
+        "price": "Rs.800.00",
+        "rating": "4.5",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/06/15/07/93/1000_F_615079362_FnzgGNuyzGei31exXzTV9WYUEEpbqjld.webp",
+        "description": "Flavorful fried rice accompanied by spicy devilled chicken"
+      },
+    {
+        "id": "62",
+        "category": "7",
+        "item-name": "Japanene Tonkatsu",
+        "price": "Rs.1100.00",
+        "rating": "3.5",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/06/15/07/93/1000_F_615079376_lu5DTtJ9hjr31Sq4Gv6Z0E3qjB7K23bj.webp",
+        "description": "Crispy and tender breaded pork cutlet, a Japanese classic"
+      },
+    {
+        "id": "63",
+        "category": "7",
+        "item-name": "Grilled Chicken with Potato Salad",
+        "price": "Rs.950.00",
+        "rating": "4",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/03/64/50/11/1000_F_364501143_3HCjuoNusmegfyUiGpmEhjm16251ngKg.jpg",
+        "description": "Juicy grilled chicken paired with refreshing potato salad"
+      },
+    {
+        "id": "64",
+        "category": "7",
+        "item-name": "Bibimbap with Salad & Fried Eggs",
+        "price": "Rs.1250.00",
+        "rating": "4.9",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/06/11/25/81/1000_F_611258183_fZGl57u2zAaSXgmHwWjgIS8PgwnYA6ce.jpg",
+        "description": "A delightful Korean dish featuring mixed rice, salad, and fried egg"
+      },
+    {
+        "id": "65",
+        "category": "7",
+        "item-name": "Grilled meat with rice-korean food",
+        "price": "Rs.1150.00",
+        "rating": "4.7",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/05/92/99/36/1000_F_592993689_rojUyCIG7NVOrnRS5rG3a7EBPQLIPZ3O.webp",
+        "description": " Mouthwatering grilled meat served with rice in the Korean style"
+      },
+    {
+        "id": "66",
+        "category": "7",
+        "item-name": "Chinese Vegetable Rice",
+        "price": "Rs.850.00",
+        "rating": "3.8",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/00/71/48/73/1000_F_71487341_ExAbpSmzWaZdRblFRt0VFjE1KjinFMpJ.jpg",
+        "description": "Fragrant and wholesome rice cooked with a medley of Chinese vegetables"
+      },
+    {
+        "id": "67",
+        "category": "7",
+        "item-name": "Nasi Gorang",
+        "price": "Rs.1300.00",
+        "rating": "4.9",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/00/54/71/73/1000_F_54717375_O2DQspQj0GiuoJEHxxv81K6Rxfk5M6la.jpg",
+        "description": " Indonesian-style fried rice, bursting with flavor and spices"
+      },
+    {
+        "id": "68",
+        "category": "7",
+        "item-name": "Fried Rice with Boiled Egg & Vegetables",
+        "price": "Rs.800.00",
+        "rating": "4.2",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/06/15/11/55/1000_F_615115582_RRLnTDyQTFheU5rFslurruR3nLmmU7jl.jpg",
+        "description": "A delicious fusion of fried rice, boiled eggs, and assorted veggies"
+      },
+    {
+        "id": "69",
+        "category": "7",
+        "item-name": "Chicken Biriyani",
+        "price": "Rs.1300.00",
+        "rating": "4.7",
+        "imageURL": "https://as2.ftcdn.net/v2/jpg/00/38/21/67/1000_F_38216758_dHPkFxdJ4cDtDuPgJwkCuQgYusIPQ9at.jpg",
+        "description": " Fragrant and aromatic rice with succulent pieces of chicken in the traditional biryani style"
+      },
+    {
+        "id": "70",
+        "category": "7",
+        "item-name": "Fried Rice with Chicken Sausages",
+        "price": "Rs.1000.00",
+        "rating": "4.1",
+        "imageURL": "https://as1.ftcdn.net/v2/jpg/00/94/50/30/1000_F_94503054_oOyw7n5RbuIgdn6CFXPR6lbEVqnD650l.jpg",
+        "description": "Savory fried rice complemented by tasty chicken sausages"
+      },{
+    "id": "71",
+    "category": "8",
+    "item-name": "Hanabi Chah Han Fried Rice",
+    "price": "Rs.1280.00",
+    "rating": "4.3",
+    "imageURL": "https://img.freepik.com/premium-photo/rice-with-chicken-typical-brazilian-food-galinhada-top-view_261158-1536.jpg?w=996",
+    "description": "Japanese-style fried basmati rice with minced meat, eggs, leeks, Chinese chives,dried shrimp, seasoned with salt, fish sauce, pepper, and sesame oil"
   },
-  {
-    "id": "2",
-    "category": "1",
-    "item-name": "Chicken Wings",
-    "price": "8.99",
-    "rating": 4.2,
-    "imageURL": "https://example.com/images/chicken-wings.jpg",
-    "description": "Succulent chicken wings tossed in your choice of buffalo or BBQ sauce."
+{
+    "id": "72",
+    "category": "8",
+    "item-name": "Cheese Curry Noodle",
+    "price": "Rs.1580.00",
+    "rating": "4.5",
+    "imageURL": "https://img.freepik.com/premium-photo/rice-noodles-vegetable-asian-dish-fresh-funchose-meal-food-snack-table-copy-space-food_88242-24006.jpg?w=996",
+    "description": "Spicy meat-topped soya noodles with veggies, eggs, and rich flavor from originalsauce, mackerel powder, spices, cheese"
   },
-  {
-    "id": "3",
-    "category": "2",
-    "item-name": "Spaghetti Bolognese",
-    "price": "12.99",
-    "rating": 4.8,
-    "imageURL": "https://example.com/images/spaghetti-bolognese.jpg",
-    "description": "Classic Italian pasta dish with rich meat sauce and Parmesan cheese."
+{
+    "id": "73",
+    "category": "8",
+    "item-name": "Fried Chicken Wing",
+    "price": "Rs.1980.00",
+    "rating": "4.2",
+    "imageURL": "https://img.freepik.com/free-photo/top-view-fried-chicken-with-variety-three-sauces_23-2148646572.jpg?w=996&t=st=1691032225~exp=1691032825~hmac=57002051826fc39fc1d9a765cbcea7fc37056b7fd06a4e015c368825494c073b",
+    "description": "Spicy dish which is marinated in soy-honey, fried, sweet honey, spicy pepper and sesame"
   },
-  {
-    "id": "4",
-    "category": "2",
-    "item-name": "Grilled Salmon",
-    "price": "16.99",
-    "rating": 4.6,
-    "imageURL": "https://example.com/images/grilled-salmon.jpg",
-    "description": "Fresh Atlantic salmon fillet grilled to perfection, served with vegetables."
+{
+    "id": "74",
+    "category": "8",
+    "item-name": "Egg Fried Noodles",
+    "price": "Rs.1280.00",
+    "rating": "4.8",
+    "imageURL": "https://img.freepik.com/premium-photo/vietnames-rice-noodles-with-chili-sauce-served-with-boiled-eggs_71919-1377.jpg?w=996",
+    "description": "Tender green beans wok-fried with aromatic garlic and a touch of red chili for a flavorful kick"
   },
-  {
-    "id": "5",
-    "category": "3",
-    "item-name": "Cheesecake",
-    "price": "6.99",
-    "rating": 4.4,
-    "imageURL": "https://example.com/images/cheesecake.jpg",
-    "description": "Creamy New York-style cheesecake topped with your choice of fruit compote."
+{
+    "id": "75",
+    "category": "8",
+    "item-name": "Garlic Green Beans with Red Chili",
+    "price": "Rs.1150.00",
+    "rating": "4.4",
+    "imageURL": "https://img.freepik.com/free-photo/top-view-fresh-mexican-food-plate_23-2148614432.jpg?w=996&t=st=1691031993~exp=1691032593~hmac=0bfca7ad9f4c9040dcbb3b3e6d256554f432b49d57d593f89b13dfb7df2d0478",
+    "description": "Tender green beans wok-fried with aromatic garlic and a touch of red chili for a flavorful kick"
   },
-  {
-    "id": "6",
-    "category": "3",
-    "item-name": "Tiramisu",
-    "price": "7.99",
-    "rating": 4.7,
-    "imageURL": "https://example.com/images/tiramisu.jpg",
-    "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone."
+{
+    "id": "76",
+    "category": "8",
+    "item-name": "Chicken Biryani",
+    "price": "Rs.2280.00",
+    "rating": "4.8",
+    "imageURL": "https://img.freepik.com/premium-photo/bowl-rice-with-chicken-vegetables-it_867452-678.jpg?w=996",
+    "description": "Indian biryani with sizzling chicken, fragrant rice, spiced gravy, mint chutney, and fresh raita"
   },
-  {
-    "id": "7",
-    "category": "4",
-    "item-name": "Coca-Cola",
-    "price": "2.49",
-    "rating": 4.0,
-    "imageURL": "https://example.com/images/coca-cola.jpg",
-    "description": "Refreshing carbonated beverage with a hint of cola flavor."
+{
+    "id": "77",
+    "category": "8",
+    "item-name": "Grilled Chicken Sausages Mongolian Rice",
+    "price": "Rs.3280.00",
+    "rating": "4.0",
+    "imageURL": "https://img.freepik.com/premium-photo/tipakay-sweet-chicken-with-chaufa-rice-wantan-soup-peruvian-chinese-food_191371-581.jpg?w=826",
+    "description": "Work-fried Mongolian rice with veggies, eggs, garlic sauce, tolled with grilled chicken sausages"
   },
-  {
-    "id": "8",
-    "category": "4",
-    "item-name": "Iced Tea",
-    "price": "2.99",
-    "rating": 3.9,
-    "imageURL": "https://example.com/images/iced-tea.jpg",
-    "description": "Chilled tea served with ice and a slice of lemon for a refreshing drink."
+{
+    "id": "78",
+    "category": "8",
+    "item-name": "Spaghetti with tomato sauce and meatballs",
+    "price": "Rs.1200.00",
+    "rating": "4.2",
+    "imageURL": "https://img.freepik.com/free-photo/spaghetti-meatball-topped-with-parmesan-basil-food-photography_53876-96047.jpg?w=740&t=st=1691047229~exp=1691047829~hmac=9664ddd6b3689eb27566aafc4c19cf4c60ec2ed116a6b2187433d3631a092c47",
+    "description": "Classic Italian comfort, al dente spaghetti served with tangy tomato sauce and succulent meatballs"
   },
-  {
-    "id": "9",
-    "category": "1",
-    "item-name": "Nachos",
-    "price": "9.49",
-    "rating": 4.3,
-    "imageURL": "https://example.com/images/nachos.jpg",
-    "description": "Tortilla chips smothered in cheese, guacamole, salsa, and jalapeños."
+{
+    "id": "79",
+    "category": "8",
+    "item-name": "Pasta Smothered In Tomato Sauce",
+    "price": "Rs.1300.00",
+    "rating": "4.6",
+    "imageURL": "https://as1.ftcdn.net/v2/jpg/00/66/28/02/1000_F_66280296_FRwbfIBieZvwYwY1vfl7hMpG01FUTrzY.jpg",
+    "description": "A delicious pasta dish generously coated with rich and flavorful tomato sauce"
   },
-  {
-    "id": "10",
-    "category": "2",
-    "item-name": "Steak",
-    "price": "18.99",
-    "rating": 4.9,
-    "imageURL": "https://example.com/images/steak.jpg",
-    "description": "Juicy grilled steak cooked to your desired doneness, served with mashed potatoes."
-  },
-  {
-    "id": "11",
-    "category": "2",
-    "item-name": "Pasta Carbonara",
-    "price": "13.49",
-    "rating": 4.6,
-    "imageURL": "https://example.com/images/pasta-carbonara.jpg",
-    "description": "Creamy pasta with bacon, eggs, and Parmesan cheese in a rich sauce."
-  },
-  {
-    "id": "12",
-    "category": "4",
-    "item-name": "Lemonade",
-    "price": "2.49",
-    "rating": 4.2,
-    "imageURL": "https://example.com/images/lemonade.jpg",
-    "description": "Freshly squeezed lemonade, sweetened to perfection for a zesty drink."
-  },
-  {
-    "id": "13",
-    "category": "3",
-    "item-name": "Apple Pie",
-    "price": "6.49",
-    "rating": 4.5,
-    "imageURL": "https://example.com/images/apple-pie.jpg",
-    "description": "Homemade apple pie with a flaky crust and warm cinnamon-spiced apples."
-  },
-  {
-    "id": "14",
-    "category": "1",
-    "item-name": "Bruschetta",
-    "price": "7.99",
-    "rating": 4.2,
-    "imageURL": "https://example.com/images/bruschetta.jpg",
-    "description": "Toasted baguette slices topped with fresh tomatoes, garlic, basil, and olive oil."
-  },
-  {
-    "id": "15",
-    "category": "2",
-    "item-name": "Lobster Thermidor",
-    "price": "24.99",
-    "rating": 4.7,
-    "imageURL": "https://example.com/images/lobster-thermidor.jpg",
-    "description": "Luxurious lobster dish with a creamy white wine and cheese sauce."
-  },
-  {
-    "id": "16",
-    "category": "4",
-    "item-name": "Orange Juice",
-    "price": "3.49",
-    "rating": 4.0,
-    "imageURL": "https://example.com/images/orange-juice.jpg",
-    "description": "Freshly squeezed orange juice packed with vitamins and natural sweetness."
-  },
-  {
-    "id": "17",
-    "category": "1",
-    "item-name": "Spring Rolls",
-    "price": "8.49",
-    "rating": 4.4,
-    "imageURL": "https://example.com/images/spring-rolls.jpg",
-    "description": "Crispy vegetable spring rolls served with sweet chili sauce."
-  },
-  {
-    "id": "18",
-    "category": "3",
-    "item-name": "Chocolate Brownie",
-    "price": "5.49",
-    "rating": 4.6,
-    "imageURL": "https://example.com/images/chocolate-brownie.jpg",
-    "description": "Decadent chocolate brownie served warm with a scoop of vanilla ice cream."
-  },
-  {
-    "id": "19",
-    "category": "4",
-    "item-name": "Mango Lassi",
-    "price": "3.99",
-    "rating": 4.5,
-    "imageURL": "https://example.com/images/mango-lassi.jpg",
-    "description": "Creamy yogurt-based drink with fresh mango and a hint of cardamom."
-  },
-  {
-    "id": "20",
-    "category": "2",
-    "item-name": "Chicken Parmesan",
-    "price": "15.99",
-    "rating": 4.7,
-    "imageURL": "https://example.com/images/chicken-parmesan.jpg",
-    "description": "Breaded chicken cutlet topped with marinara sauce and melted mozzarella."
+{
+    "id": "80",
+    "category": "8",
+    "item-name": "Stacked pickle, onion ring cheese burger",
+    "price": "Rs.1000.00",
+    "rating": "4.8",
+    "imageURL": "https://as2.ftcdn.net/v2/jpg/06/03/77/83/1000_F_603778370_oY7NLv5M5Zl2ZGaF3O05BFd9qkVAoVqk.jpg",
+    "description": " A mouthwatering burger masterpiece featuring layers of pickles, onion rings, and cheese"
   }
 ]

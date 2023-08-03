@@ -37,6 +37,7 @@ The server will start running on `http://localhost:3000`
 
 ### Endpoints
 
+- `/shops`: GET request to retrieve all the shops.
 - `/items`: GET request to retrieve all items.
 - `/items/:id`: GET request to retrieve an item by its id.
 - `/categories`: GET request to retrieve all categories.
