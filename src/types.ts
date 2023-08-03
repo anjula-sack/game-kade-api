@@ -7,3 +7,11 @@ export interface Item {
   imageURL: string;
   description: string;
 }
+
+export interface Shop {
+  id: string;
+  name: string;
+  address: string;
+  url: string;
+  time: string;
+}
